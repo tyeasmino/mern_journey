@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.billing-container {
+    padding: 100px;
+}
+
+.billing-container h3 {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+form {
+    display: flex;
+    gap: 150px;
+}
+
+form > * {
+    flex: 1;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.form-container label {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+    font-size: 16px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+}
+
+.name-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#additional::placeholder {
+    color: #9F9F9F;
+    font-size: 16px;
+}  
+
+.upper-part {
+    border-bottom: 1px solid #9F9F9F;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.row-heading {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.row span {
+    color: #9F9F9F;
+    font-size: 16px;
+}
+
+.light {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.regular {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.checkout-total {
+    color: #B88E2F;
+    font-size: 24px;
+    font-weight: bold;
+}   
+
+.lower-part {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.lower-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.lower-part span {
+    width: 14px;
+    height: 14px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+.payment-method {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.payment-method-row {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.payment-method-row input {
+    accent-color: black;
+}
+
+
+
+.lower-part .light {
+    color: #9F9F9F;
+}
+
+.lower-part a {
+    text-align: center;
+}
+
+.lower-part button {
+    font-size: 20px;
+    font-weight: normal;
+    background: transparent;
+    padding: 20px 100px;
+    border-radius: 15px;
+}
+

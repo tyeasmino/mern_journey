@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar of Assignment 01 - Q3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #212121;
+        }
+        nav {
+            background-color: #FA3700; 
+            color: white;
+            font-size: 20px; 
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .main-ul {
+            height: 50px;
+            display: flex;
+            align-items: center;
+        }
+
+        .main-ul li, 
+        a {
+            padding: 10px 20px;
+            list-style: none;
+            position: relative;
+        }
+
+        .li-child {
+            width: 160px;
+            position: absolute;
+            background-color: #FA3700;
+            visibility: hidden;
+        }
+
+        .li-child li:hover {
+            background-color: black;
+        }
+
+        .firstChild {
+            top: 46px;
+        }
+
+        .secondChild {
+            top: 0;
+            left: 160px;
+        }
+
+        .li-parent:hover > .li-child {
+            visibility: visible;
+        }
+
+        a {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="main-ul">
+            <li>Home</li>
+            <li class="li-parent" >WordPress
+                <ul class="li-child firstChild">
+                    <li>Themes</li>
+                    <li>Plugins</li>
+                    <li class="li-parent" >Tutorials
+                        <ul class="li-child secondChild">
+                            <li>Stuff</li>
+                            <li>Things</li>
+                            <li>Other Stuff</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Graphic Design</li>
+            <li>Inspiration</li>
+            <li>Contact</li>
+            <li>About</li>
+        </ul>
+        <a href="../index.html"><i class="fa-solid fa-house"></i></a>
+    </nav>
+</body>
+</html>

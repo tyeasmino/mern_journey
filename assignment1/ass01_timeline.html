@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline of Assignment 01 - Q3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #1E1E30;
+            color: white;
+        }
+
+        .timeline {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .timeline-container {
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .timeline-card-container {
+            position: relative;
+        }
+
+        .timeline-card-container::after {
+            content: '';
+            width: 20px;
+            height: 20px;
+            background-color: #27293F;
+            position: absolute;
+            top: 20px;
+            left: -8px;
+            z-index: -1;
+            transform: rotate(45deg);
+            border-radius: 2px;
+        }
+
+        .line {
+            width: 2px;
+            background-color: #27293F;
+            position: absolute;
+            top: 30px;
+            bottom: -35px;
+            left: -45px;
+        }
+
+        .line-img i {
+            padding: 10px;
+            border-radius: 50%;
+            position: absolute;
+            left: -17px;
+            top: -15px;
+        }
+
+        .timeline-card {
+            background-color: #27293F;
+            padding: 20px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .card-title {
+            padding: 5px 10px;
+            border-radius: 5px;
+            width: 60px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .card-body {
+            font-size: 17px;
+        }
+
+        .card-time {
+            color: #555;
+        }
+
+        .primary {
+            background-color: #008FFF;
+        }
+
+        .danger {
+            background-color: #FF4C93;
+        }
+
+        .success {
+            background-color: #00C298;
+        }
+
+        a {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: white;
+            padding: 10px 10px;
+            border-radius: 3px;
+            color: #27293F;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="timeline">
+        <div class="timeline-container">
+            <div class="timeline-card-container">
+                <div class="line">
+                    <div class="line-img">
+                        <i class="fa-solid fa-face-laugh primary"></i>
+                    </div>
+                </div>
+
+                <div class="timeline-card">
+                    <div class="card-title primary">Primary</div>
+                    <div class="card-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias inventore aliquam,
+                        distinctio minus sapiente quos nobis officiis, repellendus voluptas neque dolorem quis! Aliquam
+                        fuga mollitia id, ipsa repellendus quam? Provident?
+                    </div>
+                    <div class="card-time">1 Hours Ago</div>
+                </div>
+            </div>
+            <div class="timeline-card-container">
+                <div class="line">
+                    <div class="line-img"> <i class="danger fa-solid fa-face-grin-hearts"></i>
+                        <!--<i class="fa-solid fa-face-grin-tears"></i> -->
+                    </div>
+                </div>
+
+                <div class="timeline-card">
+                    <div class="card-title danger">Danger</div>
+                    <div class="card-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias inventore aliquam,
+                        distinctio minus sapiente quos nobis officiis, repellendus voluptas neque dolorem quis! Aliquam
+                        fuga mollitia id, ipsa repellendus quam? Provident?
+                    </div>
+                    <div class="card-time">2 Hours Ago</div>
+                </div>
+            </div>
+            <div class="timeline-card-container">
+                <div class="line">
+                    <div class="line-img">
+                        <i class="success fa-solid fa-face-grin-tears"></i>
+                    </div>
+                </div>
+
+                <div class="timeline-card">
+                    <div class="card-title success">Primary</div>
+                    <div class="card-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias inventore aliquam,
+                        distinctio minus sapiente quos nobis officiis, repellendus voluptas neque dolorem quis! Aliquam
+                        fuga mollitia id, ipsa repellendus quam? Provident?
+                    </div>
+                    <div class="card-time">6 Hours Ago</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="../index.html"><i class="fa-solid fa-house"></i></a>
+</body>
+
+</html>

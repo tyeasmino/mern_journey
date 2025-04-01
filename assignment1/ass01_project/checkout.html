@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <title>Checkout | Furniro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop_style.css"> 
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <section class="container">
+        <nav>
+            <div class="nav-container">
+                <div class="nav-left">
+                    <img src="images/logo.png" alt="logo">
+                    <h1>Furniro</h1>
+                </div>
+                <div class="nav-middle">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <ul>
+                        <li> <img src="images/menu/profile.png" alt=""> </li>
+                        <li> <img src="images/menu/search.png" alt=""> </li>
+                        <li> <img src="images/menu/heart.png" alt=""> </li>
+                        <li> <img src="images/menu/cart.png" alt=""> </li>
+                    </ul>
+
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <div class="shop-hero-section">
+                <img src="images/logo.png" alt="logo">
+                <h2>Checkout</h2>
+                <h3><span class="home">Home ></span> Checkout</h3>
+            </div>
+
+
+            <div class="billing-container">
+                <h3>Billing details</h3>
+                <form action="">
+                    <div class="billing-left-container">
+                        <div class="name-container">
+                            <div class="form-container">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" required>
+                            </div>
+                            <div class="form-container">
+                                <label for="lastName">First Name</label>
+                                <input type="text" id="lastName" required>
+                            </div>
+                        </div>
+
+                        <div class="form-container">
+                            <label for="companyName">Company Name (Optional)</label>
+                            <input type="text" id="companyName">
+                        </div>
+
+                        <div class="form-container">
+                            <label for="countryName">Country / Region</label>
+                            <select id="countryName">
+                                <option value="" selected>Sri Lanka</option>
+                                <option value="">Bangladesh</option>
+                                <option value="">Canada</option>
+                            </select>
+                        </div>
+
+                        <div class="form-container">
+                            <label for="streetName">Street address</label>
+                            <input type="text" id="streetName">
+                        </div>
+
+                        <div class="form-container">
+                            <label for="townCity">Town / City</label>
+                            <input type="text" id="townCity">
+                        </div>
+
+                        <div class="form-container">
+                            <label for="province">Province</label>
+                            <select id="province">
+                                <option value="" selected>Western Province</option>
+                                <option value="">Western-II Province</option>
+                                <option value="">Western-III Province</option>
+                            </select>
+                        </div>
+
+                        <div class="form-container">
+                            <label for="zipcode">Zip code</label>
+                            <input type="number" id="zipcode">
+                        </div>
+
+                        <div class="form-container">
+                            <label for="phone">Phone</label>
+                            <input type="number" id="phone" required>
+                        </div>
+
+                        <div class="form-container">
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" required>
+                        </div>
+
+                        <div class="form-container">
+                            <input type="text" id="additional" placeholder="Additional information">
+                        </div>
+                    </div>
+
+                    <div class="billing-right-container">
+                        <div class="upper-part">
+                            <div class="row row-heading">
+                                <div>Product</div>
+                                <div>Subtotal</div>
+                            </div>
+                            <div class="row">
+                                <div><span>Asgaard sofa</span> X 1</div>
+                                <div class="light">Rs. 250,000.00</div>
+                            </div>
+                            <div class="row">
+                                <div class="regular">Subtotal</div>
+                                <div class="light">Rs. 250,000.00</div>
+                            </div>
+                            <div class="row">
+                                <div class="regular">Total</div>
+                                <div class="checkout-total">Rs. 250,000.00</div>
+                            </div>
+                        </div>
+                        <div class="lower-part">
+                            <div class="lower-title">
+                                <span></span>
+                                <h6 class="regular">Direct Bank Transfer</h6>
+                            </div>
+
+                            <p class="light">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+
+                            <div class="payment-method">
+                                <div class="payment-method-row">
+                                    <input type="radio" name="payment" id="bank"> <label class="light" for="bank">Direct Bank Transfer</label>
+                                </div>
+                                <div class="payment-method-row">
+                                    <input type="radio" name="payment" id="cash"> <label class="light" for="cash">Cash On Delivery</label>
+                                </div>
+                            </div>
+
+                            <p class="last-light">
+                                Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <strong>privacy policy.</strong>
+                            </p>
+
+                            <a href=""><button>Place order</button></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="provide-container">
+                <div class="provide-card">
+                    <div class="provide-img">
+                        <img src="images/shop_images/trophy.png" alt="">
+                    </div>
+                    <div class="provide-details">
+                        <h3>High Quality</h3>
+                        <p>crafted from top materials</p>
+                    </div>
+                </div>
+                <div class="provide-card">
+                    <div class="provide-img">
+                        <img src="images/shop_images/guarantee.png" alt="">
+                    </div>
+                    <div class="provide-details">
+                        <h3>Warranty Protection</h3>
+                        <p>Over 2 years</p>
+                    </div>
+                </div>
+                <div class="provide-card">
+                    <div class="provide-img">
+                        <img src="images/shop_images/shipping.png" alt="">
+                    </div>
+                    <div class="provide-details">
+                        <h3>Free Shipping</h3>
+                        <p>Order over 150 $</p>
+                    </div>
+                </div>
+                <div class="provide-card">
+                    <div class="provide-img">
+                        <img src="images/shop_images/support.png" alt="">
+                    </div>
+                    <div class="provide-details">
+                        <h3>24/7 Support</h3>
+                        <p>Dedicated support</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-up">
+                    <div class="footer-left">
+                        <div class="footer-title">
+                            <h4>Funiro.</h4>
+                        </div>
+                        <div class="footer-content">
+                            400 University Drive Suite 200 Coral <br>
+                            Gables, <br>
+                            FL 33134 USA
+                        </div>
+                    </div>
+                    <div class="footer-middle">
+                        <div class="footer-left">
+                            <div class="footer-middle-title">
+                                Links
+                            </div>
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-right">
+                            <div class="footer-middle-title footer-middle-title2">
+                                Help
+                            </div>
+                            <ul>
+                                <li>Payment Options</li>
+                                <li>Returns</li>
+                                <li>Privacy Policies</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-right">
+                        <div class="footer-middle-title">
+                            Newsletter
+                        </div>
+                        <form action="">
+                            <input type="email" class="footer-input" placeholder="Enter Your Email Addres">
+                            <button class="footer-btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-down">
+                    <p>2023 furino. All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>

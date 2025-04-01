@@ -1,0 +1,244 @@
+@media screen and (min-width: 991px) {
+  /* Home Page */
+  /* Navbar */
+  .nav-container {
+    height: 100px;
+    padding-left: 54px;
+    padding-right: 100px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  .nav-middle ul,
+  .nav-right ul {
+    display: flex;
+  }
+
+  .nav-right i {
+    display: none;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    padding: 173px 58px 100px 58px;
+    justify-content: flex-end;
+  }
+
+  .hero-intro {
+    width: 643px;
+    height: 443px;
+    padding: 50px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+
+  .hero-title {
+    font-size: 52px;
+  }
+
+  .hero-des {
+    font-size: 18px;
+  }
+
+  .hero-btn {
+    height: 74px;
+  }
+
+  /* Browser Section */
+  .browse-heading .title {
+    font-size: 32px;
+  }
+
+  .browse-des {
+    font-size: 20px;
+  }
+
+  .browse-images {
+    padding: 10px 130px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .browse-card h6 {
+    font-size: 24px;
+  }
+
+  /* Our Products */
+  .title {
+    font-size: 40px;
+  }
+
+  .product-details h3 {
+    font-size: 24px;
+  }
+
+  .product-details p {
+    font-size: 16px;
+  }
+
+  .product-rate strong {
+    font-size: 20px;
+  }
+
+  .product-rate del {
+    font-size: 16px;
+  }
+
+  .product-card-container {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 80px;
+  }
+
+  /* Rooms Section */
+  .rooms-section {
+    flex-direction: row;
+    padding: 0px 0px 0px 50px;
+    align-items: center;
+  }
+
+  .rooms-left-div {
+    padding: 0 60px 0 80px;
+  }
+
+  .rooms-left-div .title {
+    font-size: 40px;
+    color: #3a3a3a;
+  }
+
+  .rooms-left-div p {
+    font-size: 16px;
+  }
+
+  .rooms-right-div {
+    flex-direction: row;
+  }
+
+  .rooms-right-div img,
+  .furniro_body img {
+    width: auto;
+  }
+
+  .inner-peace-container {
+    width: 217px;
+    height: 130px;
+  }
+
+  .inner-peace h3 {
+    font-size: 28px;
+  }
+
+  .roomhalf {
+    display: block;
+  }
+
+  /* FuniroFurniture */
+  .furniro_tag {
+    font-size: 20px;
+  }
+
+  .furniro_head .title {
+    font-size: 40px;
+  }
+
+  .furniro_body,
+  .furniro-up,
+  .furniro-down {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .furniro-left,
+  .furniro-right {
+    padding: 0px;
+  }
+  .furniro-middle {
+    padding: 0px;
+  }
+
+  /* Footer */
+  .footer-up,
+  .footer-middle {
+    flex-direction: row;
+  }
+
+  footer ul {
+    gap: 50px;
+  }
+
+  .footer-left,
+  .footer-right {
+    gap: 50px;
+  }
+
+  .footer-middle-title {
+    margin-top: 0;
+  }
+
+  footer form {
+    flex-direction: row;
+  }
+
+  .footer-down p {
+    font-size: 16px;
+  }
+
+  /* Shop Page */
+  .shop-filter-container {
+    padding: 20px 100px;
+    flex-direction: row;
+  }
+
+  .filter-left,
+  .filter-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .filter-left {
+    flex-direction: row;
+  }
+
+  .divider {
+    display: inline-block;
+    width: 1.5px;
+    height: 37px;
+    background-color: #9f9f9f;
+  }
+  .filter-title {
+    font-size: 20px;
+  }
+
+  .product-paging {
+    gap: 40px;
+  }
+
+  .product-paging button {
+    font-size: 20px;
+    padding: 18px 28px;
+  }
+  .provide-container {
+    flex-direction: row;
+    padding: 100px 40px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .provide-img img {
+    width: auto;
+  }
+
+
+
+  /* Single Product Page */
+  .single-product-hero { 
+    padding: 50px 100px; 
+    gap: 20px;
+}
+
+}
