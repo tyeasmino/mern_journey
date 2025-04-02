@@ -10,10 +10,8 @@
     padding: 10px;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.nav-right {
+    display: none;
 }
 
 .nav-left h2 {
@@ -31,7 +29,7 @@ ul li {
     border: 1px solid black;
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     padding: 10px 20px;
     transition: all 0.3s;
 }
@@ -52,17 +50,11 @@ ul li:hover a {
 }
 
 .assignments {
-    padding: 50px 0;
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
-    align-items: center;  
-    justify-content: space-between;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
 }
 
-.assignments > * {
-    width: 33%;
-}
 
 .assignment-card {
     border: 2px solid black;
@@ -105,7 +97,7 @@ ul li:hover a {
 
 .assignment-details ul li span {
     display: flex;
-    gap: 10px;
+    gap: 10px; 
 }
 
 .assignment-footer {
@@ -113,3 +105,13 @@ ul li:hover a {
     padding: 10px;
     justify-content: space-between;
 }
+
+.submitted {
+    background-color: green;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 12px;
+    color: white;
+    border-radius: 30px;
+}
+

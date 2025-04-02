@@ -1,0 +1,20 @@
+@media screen and (min-width: 1200px) {
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-right {
+        display: block;
+    }
+
+    .assignments { 
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    ul li { 
+        font-size: 20px;
+    }
+
+}
