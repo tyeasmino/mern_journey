@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+.heroSection,
+.heroFooterSection,
+.editorPickSection {
+  background-color: #f9f9f9;
+}
+
+.navbar-search {
+  right: 10px;
+}
+
+.bg-worldNews {
+  background-color: #6641ee;
+}
+
+.hero_tag_title {
+  font-size: 12px;
+}
+
+.line {
+  width: 14px;
+  height: 1px;
+  background-color: #1a1a1a;
+}
+
+.bg-business {
+  background-color: #e3c034;
+}
+
+.bg-technology {
+  background-color: #e74c3c;
+}
+
+.bg-culture {
+  background-color: #38ade8;
+}
+
+.bg-health {
+  background-color: #32d255;
+}
+
+.bg-sports {
+  background-color: #e8493a;
+}
+
+.hero-title {
+  font-size: 16px;
+}
+
+.heroFooterSection img {
+  height: 280px;
+}
+
+.heroHiddenDivs,
+.teamDetailsHiddenDiv {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00000060;
+  display: none;
+  transition: all;
+  transition-duration: 3s;
+}
+
+.heroParrentDivs:hover .heroHiddenDivs,
+.teamDetailsParentDiv:hover .teamDetailsHiddenDiv {
+  display: block;
+}
+
+.font12 {
+  font-size: 12px;
+}
+.font14 {
+  font-size: 14px;
+}
+.font16 {
+  font-size: 16px;
+}
+.font18 {
+  font-size: 18px;
+}
+.font20 {
+  font-size: 20px;
+}
+.font28 {
+  font-size: 28px;
+}
+
+.text-333333 {
+  color: #333333;
+}
+
+.latestNewsSection {
+  background-color: #f08f64;
+}
+
+.technology-cards img {
+  width: 100%;
+  height: 240px;
+}
+
+.kristinWalton {
+  width: fit-content;
+  background-color: #f08f64;
+}
+
+.technologyHoverDiv {
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #00000060;
+  transition: all;
+  transition-duration: 3s;
+  display: none;
+}
+
+.technologyParentDiv:hover .technologyHoverDiv {
+  display: block;
+}
+
+.turningIdeaHiddenDivs {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00000060;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* ...; */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* ...; */
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .hero-title {
+    font-size: 36px;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  /* ...; */
+}
